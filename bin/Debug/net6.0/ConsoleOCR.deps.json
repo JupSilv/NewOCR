@@ -1,0 +1,117 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleOCR/1.0.0": {
+        "dependencies": {
+          "InputSimulator": "1.0.4",
+          "Sikuli4Net": "1.0.6",
+          "System.Security.Permissions": "8.0.0"
+        },
+        "runtime": {
+          "ConsoleOCR.dll": {}
+        }
+      },
+      "InputSimulator/1.0.4": {
+        "runtime": {
+          "lib/net20/WindowsInput.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/6.0.3": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.3.17227"
+          }
+        }
+      },
+      "Sikuli4Net/1.0.6": {
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.3"
+        },
+        "runtime": {
+          "lib/Sikuli4Net.dll": {
+            "assemblyVersion": "1.0.5319.36348",
+            "fileVersion": "1.0.5319.36348"
+          }
+        }
+      },
+      "System.Security.Permissions/8.0.0": {
+        "dependencies": {
+          "System.Windows.Extensions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Windows.Extensions/8.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleOCR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InputSimulator/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D0LvRCPQMX6/FJHBjng+RO+wRDuHTJrfo7IAc7rmkPvRqchdVGJWg3y70peOtDy3OLNK+HSOwVkH4GiuLnkKgA==",
+      "path": "inputsimulator/1.0.4",
+      "hashPath": "inputsimulator.1.0.4.nupkg.sha512"
+    },
+    "Newtonsoft.Json/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kN7Xp8vjnSEiLsyo5ZiKrRFgBU4P8CvcdxGSUBQ3W2OLqDK5rIABHkgN9Yjzh6kZ7BD58Ge19fz5GvfCnwmyGA==",
+      "path": "newtonsoft.json/6.0.3",
+      "hashPath": "newtonsoft.json.6.0.3.nupkg.sha512"
+    },
+    "Sikuli4Net/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vJJyRlq2CWwYRJA4SuDUGohX5rEtZi6ndsT6BSI5nMQvtMC+5CKvsOwoHPhtBMiC5s3RRZYepSHD/4ErZ33+og==",
+      "path": "sikuli4net/1.0.6",
+      "hashPath": "sikuli4net.1.0.6.nupkg.sha512"
+    },
+    "System.Security.Permissions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v/BBylw7XevuAsHXoX9dDUUfmBIcUf7Lkz8K3ZXIKz3YRKpw8YftpSir4n4e/jDTKFoaK37AsC3xnk+GNFI1Ow==",
+      "path": "system.security.permissions/8.0.0",
+      "hashPath": "system.security.permissions.8.0.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Obg3a90MkOw9mYKxrardLpY2u0axDMrSmy4JCdq2cYbelM2cUwmUir5Bomvd1yxmPL9h5LVHU1tuKBZpUjfASg==",
+      "path": "system.windows.extensions/8.0.0",
+      "hashPath": "system.windows.extensions.8.0.0.nupkg.sha512"
+    }
+  }
+}
